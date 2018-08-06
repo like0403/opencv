@@ -1,0 +1,89 @@
+use_cache "D:/self/opencv/.cache"
+do_copy "opencv_ffmpeg.dll" "3ae76b105113d944984b2351c61e21c6" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/66b1fed06cf3510235f367f96aa26da5cb234a15/ffmpeg/opencv_ffmpeg.dll" "D:/self/opencv/project/3rdparty/ffmpeg"
+#missing "D:/self/opencv/project/3rdparty/ffmpeg/opencv_ffmpeg.dll"
+#cmake_download "D:/self/opencv/.cache/ffmpeg/3ae76b105113d944984b2351c61e21c6-opencv_ffmpeg.dll" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/66b1fed06cf3510235f367f96aa26da5cb234a15/ffmpeg/opencv_ffmpeg.dll"
+#check_md5 "D:/self/opencv/.cache/ffmpeg/3ae76b105113d944984b2351c61e21c6-opencv_ffmpeg.dll"
+#copy "D:/self/opencv/project/3rdparty/ffmpeg/opencv_ffmpeg.dll" "D:/self/opencv/.cache/ffmpeg/3ae76b105113d944984b2351c61e21c6-opencv_ffmpeg.dll"
+do_copy "opencv_ffmpeg_64.dll" "cf3bb5bc9d393b022ea7a42eb63e794d" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/66b1fed06cf3510235f367f96aa26da5cb234a15/ffmpeg/opencv_ffmpeg_64.dll" "D:/self/opencv/project/3rdparty/ffmpeg"
+#missing "D:/self/opencv/project/3rdparty/ffmpeg/opencv_ffmpeg_64.dll"
+#cmake_download "D:/self/opencv/.cache/ffmpeg/cf3bb5bc9d393b022ea7a42eb63e794d-opencv_ffmpeg_64.dll" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/66b1fed06cf3510235f367f96aa26da5cb234a15/ffmpeg/opencv_ffmpeg_64.dll"
+#check_md5 "D:/self/opencv/.cache/ffmpeg/cf3bb5bc9d393b022ea7a42eb63e794d-opencv_ffmpeg_64.dll"
+#copy "D:/self/opencv/project/3rdparty/ffmpeg/opencv_ffmpeg_64.dll" "D:/self/opencv/.cache/ffmpeg/cf3bb5bc9d393b022ea7a42eb63e794d-opencv_ffmpeg_64.dll"
+do_copy "ffmpeg_version.cmake" "ec59008da403fb18ab3c1ed66aed583b" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/66b1fed06cf3510235f367f96aa26da5cb234a15/ffmpeg/ffmpeg_version.cmake" "D:/self/opencv/project/3rdparty/ffmpeg"
+#missing "D:/self/opencv/project/3rdparty/ffmpeg/ffmpeg_version.cmake"
+#cmake_download "D:/self/opencv/.cache/ffmpeg/ec59008da403fb18ab3c1ed66aed583b-ffmpeg_version.cmake" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/66b1fed06cf3510235f367f96aa26da5cb234a15/ffmpeg/ffmpeg_version.cmake"
+# timeout on name lookup is not supported
+#   Trying 151.101.228.133...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.228.133) port 443 (#0)
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 1/3)
+# schannel: disabled server certificate revocation checks
+# schannel: sending initial handshake data: sending 181 bytes...
+# schannel: sent initial handshake data: sent 181 bytes
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: failed to receive handshake, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data got 3575
+# schannel: encrypted data buffer: offset 3575 length 4096
+# schannel: sending next handshake data: sending 93 bytes...
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data got 258
+# schannel: encrypted data buffer: offset 258 length 4096
+# schannel: SSL/TLS handshake complete
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 3/3)
+# schannel: stored credential handle in session cache
+# GET /opencv/opencv_3rdparty/66b1fed06cf3510235f367f96aa26da5cb234a15/ffmpeg/ffmpeg_version.cmake HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.60.0
+# Accept: */*
+# 
+# schannel: client wants to read 16384 bytes
+# schannel: encdata_buffer resized 17408
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 1230
+# schannel: encrypted data buffer: offset 1230 length 17408
+# schannel: decrypted data length: 1201
+# schannel: decrypted data added: 1201
+# schannel: decrypted data cached: offset 1201 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 1201 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 1201
+# schannel: decrypted data buffer: offset 0 length 16384
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: "58e7d5eb0b9ea4a81bb254894be9ff760ca1b52f"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# X-GitHub-Request-Id: 58EA:4FF9:5C4E7D:62FB83:5B681802
+# Content-Length: 361
+# Accept-Ranges: bytes
+# Date: Mon, 06 Aug 2018 09:42:26 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-hnd18726-HND
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1533548547.719298,VS0,VE212
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: c75b66fb0cebef32c3c213de57781163f5eb9dee
+# Expires: Mon, 06 Aug 2018 09:47:26 GMT
+# Source-Age: 0
+# 
+# [361 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/self/opencv/.cache/ffmpeg/ec59008da403fb18ab3c1ed66aed583b-ffmpeg_version.cmake"
+#copy "D:/self/opencv/project/3rdparty/ffmpeg/ffmpeg_version.cmake" "D:/self/opencv/.cache/ffmpeg/ec59008da403fb18ab3c1ed66aed583b-ffmpeg_version.cmake"
+do_unpack "ippicv_2017u3_win_intel64_general_20170822.zip" "0421e642bc7ad741a2236d3ec4190bdd" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/dfe3162c237af211e98b8960018b564bc209261d/ippicv/ippicv_2017u3_win_intel64_general_20170822.zip" "D:/self/opencv/project/3rdparty/ippicv"
+#cmake_download "D:/self/opencv/.cache/ippicv/0421e642bc7ad741a2236d3ec4190bdd-ippicv_2017u3_win_intel64_general_20170822.zip" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/dfe3162c237af211e98b8960018b564bc209261d/ippicv/ippicv_2017u3_win_intel64_general_20170822.zip"
+#check_md5 "D:/self/opencv/.cache/ippicv/0421e642bc7ad741a2236d3ec4190bdd-ippicv_2017u3_win_intel64_general_20170822.zip"
+#mkdir "D:/self/opencv/project/3rdparty/ippicv"
+#unpack "D:/self/opencv/project/3rdparty/ippicv" "D:/self/opencv/.cache/ippicv/0421e642bc7ad741a2236d3ec4190bdd-ippicv_2017u3_win_intel64_general_20170822.zip"
