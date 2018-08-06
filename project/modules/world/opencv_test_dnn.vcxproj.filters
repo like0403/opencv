@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\npy_blob.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_caffe_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_darknet_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_googlenet.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_halide_layers.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_halide_nets.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_layers.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_main.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_misc.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_nms.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_tf_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\test\test_torch_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\self\opencv\modules\dnn\test\npy_blob.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\self\opencv\modules\dnn\test\test_common.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\self\opencv\modules\dnn\test\test_precomp.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_dnn">
+      <UniqueIdentifier>{F039DDA4-6B92-31DF-95DE-7ADF9A78E997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include">
+      <UniqueIdentifier>{9A584D6C-1964-3C52-94F3-2024288E7B53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src">
+      <UniqueIdentifier>{020824CA-242D-3080-BC01-6565503B1BEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

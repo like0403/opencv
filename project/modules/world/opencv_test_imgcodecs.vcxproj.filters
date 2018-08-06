@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_grfmt.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_jpeg.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_main.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_png.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_read_write.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_tiff.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_webp.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\self\opencv\modules\imgcodecs\test\test_precomp.hpp">
+      <Filter>opencv_imgcodecs\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_imgcodecs">
+      <UniqueIdentifier>{98C4C9AB-EAEB-31EB-AB3E-0C8B9EA6BC7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgcodecs\Include">
+      <UniqueIdentifier>{8098FAB4-A33A-3056-93D9-B87D65492D44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgcodecs\Src">
+      <UniqueIdentifier>{86700903-710C-3B74-B489-910DC08C9679}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

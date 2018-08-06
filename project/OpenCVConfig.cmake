@@ -105,8 +105,8 @@ set(OpenCV_SHARED ON)
 # Enables mangled install paths, that help with side by side installs
 set(OpenCV_USE_MANGLED_PATHS FALSE)
 
-set(OpenCV_LIB_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab)
-set(OpenCV_INCLUDE_DIRS "D:/self/opencv/project" "D:/self/opencv/include" "D:/self/opencv/include/opencv" "D:/self/opencv/modules/core/include" "D:/self/opencv/modules/flann/include" "D:/self/opencv/modules/imgproc/include" "D:/self/opencv/modules/ml/include" "D:/self/opencv/modules/objdetect/include" "D:/self/opencv/modules/photo/include" "D:/self/opencv/modules/video/include" "D:/self/opencv/modules/dnn/include" "D:/self/opencv/modules/imgcodecs/include" "D:/self/opencv/modules/shape/include" "D:/self/opencv/modules/videoio/include" "D:/self/opencv/modules/highgui/include" "D:/self/opencv/modules/superres/include" "D:/self/opencv/modules/ts/include" "D:/self/opencv/modules/features2d/include" "D:/self/opencv/modules/calib3d/include" "D:/self/opencv/modules/stitching/include" "D:/self/opencv/modules/videostab/include")
+set(OpenCV_LIB_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab;opencv_world)
+set(OpenCV_INCLUDE_DIRS "D:/self/opencv/project" "D:/self/opencv/include" "D:/self/opencv/include/opencv" "D:/self/opencv/modules/core/include" "D:/self/opencv/modules/flann/include" "D:/self/opencv/modules/imgproc/include" "D:/self/opencv/modules/ml/include" "D:/self/opencv/modules/objdetect/include" "D:/self/opencv/modules/photo/include" "D:/self/opencv/modules/video/include" "D:/self/opencv/modules/dnn/include" "D:/self/opencv/modules/imgcodecs/include" "D:/self/opencv/modules/shape/include" "D:/self/opencv/modules/videoio/include" "D:/self/opencv/modules/highgui/include" "D:/self/opencv/modules/superres/include" "D:/self/opencv/modules/features2d/include" "D:/self/opencv/modules/calib3d/include" "D:/self/opencv/modules/stitching/include" "D:/self/opencv/modules/videostab/include" "D:/self/opencv/modules/world/include" "D:/self/opencv/modules/ts/include")
 
 if(NOT TARGET opencv_core)
   include(${CMAKE_CURRENT_LIST_DIR}/OpenCVModules${OpenCV_MODULES_SUFFIX}.cmake)
@@ -181,7 +181,7 @@ if(NOT OpenCV_FIND_COMPONENTS)
   endif()
 endif()
 
-set(OpenCV_WORLD_COMPONENTS )
+set(OpenCV_WORLD_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_shape;opencv_stitching;opencv_superres;opencv_video;opencv_videoio;opencv_videostab)
 
 # expand short module names and see if requested components exist
 foreach(__cvcomponent ${OpenCV_FIND_COMPONENTS})

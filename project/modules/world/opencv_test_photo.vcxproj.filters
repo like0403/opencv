@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\ocl\test_denoising.cpp">
+      <Filter>opencv_photo\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_cloning.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_decolor.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_denoise_tvl1.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_denoising.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_denoising.cuda.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_hdr.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_inpaint.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_main.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\photo\test\test_npr.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\self\opencv\modules\photo\test\test_precomp.hpp">
+      <Filter>opencv_photo\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_photo">
+      <UniqueIdentifier>{FFA932FC-DB72-36B3-A205-D7091FC3A91C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include">
+      <UniqueIdentifier>{94622818-7F52-3082-8251-6976902BC8B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src">
+      <UniqueIdentifier>{A9C30F13-54F2-30C7-B001-DDB1505AC092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\ocl">
+      <UniqueIdentifier>{F3F27596-4D49-35E9-8544-57865AFBC76E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

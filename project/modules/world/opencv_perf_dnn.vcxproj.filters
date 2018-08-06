@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\self\opencv\modules\dnn\perf\opencl\perf_convolution.cpp">
+      <Filter>opencv_dnn\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\perf\perf_caffe.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\perf\perf_convolution.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\perf\perf_main.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\self\opencv\modules\dnn\perf\perf_net.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\self\opencv\modules\dnn\perf\perf_precomp.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_dnn">
+      <UniqueIdentifier>{F039DDA4-6B92-31DF-95DE-7ADF9A78E997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include">
+      <UniqueIdentifier>{9A584D6C-1964-3C52-94F3-2024288E7B53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src">
+      <UniqueIdentifier>{020824CA-242D-3080-BC01-6565503B1BEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\opencl">
+      <UniqueIdentifier>{DADACE07-516A-3F93-9EAE-95ACA94B3137}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BCA9791-6A28-3E2C-A5FA-0122EFF61E39}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_test_imgcodecs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\self\opencv\project\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_imgcodecs.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_test_imgcodecsd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\self\opencv\project\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_imgcodecs.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_test_imgcodecs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\self\opencv\3rdparty\libjasper;D:\self\opencv\project\3rdparty\libtiff;D:\self\opencv\3rdparty\libtiff;D:\self\opencv\3rdparty\libpng;D:\self\opencv\3rdparty\libwebp\src;D:\self\opencv\3rdparty\libjpeg;D:\self\opencv\project\3rdparty\zlib;D:\self\opencv\3rdparty\zlib;D:\self\opencv\project\3rdparty\ippicv\ippicv_win\include;D:\self\opencv\project\3rdparty\ippicv\ippiw_win\include;D:\self\opencv\project;D:\self\opencv\modules\dnn\src\ocl4dnn\include;D:\self\opencv\3rdparty\include\opencl\1.2;D:\self\opencv\modules\ts\include;D:\self\opencv\modules\imgcodecs\include;D:\self\opencv\modules\videoio\include;D:\self\opencv\modules\core\include;D:\self\opencv\modules\imgproc\include;D:\self\opencv\modules\flann\include;D:\self\opencv\modules\ml\include;D:\self\opencv\modules\objdetect\include;D:\self\opencv\modules\photo\include;D:\self\opencv\modules\video\include;D:\self\opencv\modules\dnn\include;D:\self\opencv\modules\shape\include;D:\self\opencv\modules\highgui\include;D:\self\opencv\modules\superres\include;D:\self\opencv\modules\features2d\include;D:\self\opencv\modules\calib3d\include;D:\self\opencv\modules\stitching\include;D:\self\opencv\modules\videostab\include;D:\self\opencv\modules\world\include;D:\self\opencv\modules\imgcodecs\test;D:\self\opencv\3rdparty\openexr\Half;D:\self\opencv\3rdparty\openexr\Iex;D:\self\opencv\3rdparty\openexr\IlmThread;D:\self\opencv\3rdparty\openexr\Imath;D:\self\opencv\3rdparty\openexr\IlmImf;D:\self\opencv\3rdparty\include;D:\self\opencv\3rdparty\include\ffmpeg_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4701;4100;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__OPENCV_TESTS=1;_VARIADIC_MAX=10;__OPENCV_BUILD=1;OPENCV_WITH_ITT=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__OPENCV_TESTS=1;_VARIADIC_MAX=10;__OPENCV_BUILD=1;OPENCV_WITH_ITT=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\self\opencv\3rdparty\libjasper;D:\self\opencv\project\3rdparty\libtiff;D:\self\opencv\3rdparty\libtiff;D:\self\opencv\3rdparty\libpng;D:\self\opencv\3rdparty\libwebp\src;D:\self\opencv\3rdparty\libjpeg;D:\self\opencv\project\3rdparty\zlib;D:\self\opencv\3rdparty\zlib;D:\self\opencv\project\3rdparty\ippicv\ippicv_win\include;D:\self\opencv\project\3rdparty\ippicv\ippiw_win\include;D:\self\opencv\project;D:\self\opencv\modules\dnn\src\ocl4dnn\include;D:\self\opencv\3rdparty\include\opencl\1.2;D:\self\opencv\modules\ts\include;D:\self\opencv\modules\imgcodecs\include;D:\self\opencv\modules\videoio\include;D:\self\opencv\modules\core\include;D:\self\opencv\modules\imgproc\include;D:\self\opencv\modules\flann\include;D:\self\opencv\modules\ml\include;D:\self\opencv\modules\objdetect\include;D:\self\opencv\modules\photo\include;D:\self\opencv\modules\video\include;D:\self\opencv\modules\dnn\include;D:\self\opencv\modules\shape\include;D:\self\opencv\modules\highgui\include;D:\self\opencv\modules\superres\include;D:\self\opencv\modules\features2d\include;D:\self\opencv\modules\calib3d\include;D:\self\opencv\modules\stitching\include;D:\self\opencv\modules\videostab\include;D:\self\opencv\modules\world\include;D:\self\opencv\modules\imgcodecs\test;D:\self\opencv\3rdparty\openexr\Half;D:\self\opencv\3rdparty\openexr\Iex;D:\self\opencv\3rdparty\openexr\IlmThread;D:\self\opencv\3rdparty\openexr\Imath;D:\self\opencv\3rdparty\openexr\IlmImf;D:\self\opencv\3rdparty\include;D:\self\opencv\3rdparty\include\ffmpeg_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\self\opencv\3rdparty\libjasper;D:\self\opencv\project\3rdparty\libtiff;D:\self\opencv\3rdparty\libtiff;D:\self\opencv\3rdparty\libpng;D:\self\opencv\3rdparty\libwebp\src;D:\self\opencv\3rdparty\libjpeg;D:\self\opencv\project\3rdparty\zlib;D:\self\opencv\3rdparty\zlib;D:\self\opencv\project\3rdparty\ippicv\ippicv_win\include;D:\self\opencv\project\3rdparty\ippicv\ippiw_win\include;D:\self\opencv\project;D:\self\opencv\modules\dnn\src\ocl4dnn\include;D:\self\opencv\3rdparty\include\opencl\1.2;D:\self\opencv\modules\ts\include;D:\self\opencv\modules\imgcodecs\include;D:\self\opencv\modules\videoio\include;D:\self\opencv\modules\core\include;D:\self\opencv\modules\imgproc\include;D:\self\opencv\modules\flann\include;D:\self\opencv\modules\ml\include;D:\self\opencv\modules\objdetect\include;D:\self\opencv\modules\photo\include;D:\self\opencv\modules\video\include;D:\self\opencv\modules\dnn\include;D:\self\opencv\modules\shape\include;D:\self\opencv\modules\highgui\include;D:\self\opencv\modules\superres\include;D:\self\opencv\modules\features2d\include;D:\self\opencv\modules\calib3d\include;D:\self\opencv\modules\stitching\include;D:\self\opencv\modules\videostab\include;D:\self\opencv\modules\world\include;D:\self\opencv\modules\imgcodecs\test;D:\self\opencv\3rdparty\openexr\Half;D:\self\opencv\3rdparty\openexr\Iex;D:\self\opencv\3rdparty\openexr\IlmThread;D:\self\opencv\3rdparty\openexr\Imath;D:\self\opencv\3rdparty\openexr\IlmImf;D:\self\opencv\3rdparty\include;D:\self\opencv\3rdparty\include\ffmpeg_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_ts340d.lib;..\..\lib\Debug\opencv_world340d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\lib\intel64\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/self/opencv/project/bin/Debug/opencv_test_imgcodecsd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/self/opencv/project/bin/Debug/opencv_test_imgcodecsd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\self\opencv\3rdparty\libjasper;D:\self\opencv\project\3rdparty\libtiff;D:\self\opencv\3rdparty\libtiff;D:\self\opencv\3rdparty\libpng;D:\self\opencv\3rdparty\libwebp\src;D:\self\opencv\3rdparty\libjpeg;D:\self\opencv\project\3rdparty\zlib;D:\self\opencv\3rdparty\zlib;D:\self\opencv\project\3rdparty\ippicv\ippicv_win\include;D:\self\opencv\project\3rdparty\ippicv\ippiw_win\include;D:\self\opencv\project;D:\self\opencv\modules\dnn\src\ocl4dnn\include;D:\self\opencv\3rdparty\include\opencl\1.2;D:\self\opencv\modules\ts\include;D:\self\opencv\modules\imgcodecs\include;D:\self\opencv\modules\videoio\include;D:\self\opencv\modules\core\include;D:\self\opencv\modules\imgproc\include;D:\self\opencv\modules\flann\include;D:\self\opencv\modules\ml\include;D:\self\opencv\modules\objdetect\include;D:\self\opencv\modules\photo\include;D:\self\opencv\modules\video\include;D:\self\opencv\modules\dnn\include;D:\self\opencv\modules\shape\include;D:\self\opencv\modules\highgui\include;D:\self\opencv\modules\superres\include;D:\self\opencv\modules\features2d\include;D:\self\opencv\modules\calib3d\include;D:\self\opencv\modules\stitching\include;D:\self\opencv\modules\videostab\include;D:\self\opencv\modules\world\include;D:\self\opencv\modules\imgcodecs\test;D:\self\opencv\3rdparty\openexr\Half;D:\self\opencv\3rdparty\openexr\Iex;D:\self\opencv\3rdparty\openexr\IlmThread;D:\self\opencv\3rdparty\openexr\Imath;D:\self\opencv\3rdparty\openexr\IlmImf;D:\self\opencv\3rdparty\include;D:\self\opencv\3rdparty\include\ffmpeg_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4701;4100;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;__OPENCV_TESTS=1;_VARIADIC_MAX=10;__OPENCV_BUILD=1;OPENCV_WITH_ITT=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;__OPENCV_TESTS=1;_VARIADIC_MAX=10;__OPENCV_BUILD=1;OPENCV_WITH_ITT=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\self\opencv\3rdparty\libjasper;D:\self\opencv\project\3rdparty\libtiff;D:\self\opencv\3rdparty\libtiff;D:\self\opencv\3rdparty\libpng;D:\self\opencv\3rdparty\libwebp\src;D:\self\opencv\3rdparty\libjpeg;D:\self\opencv\project\3rdparty\zlib;D:\self\opencv\3rdparty\zlib;D:\self\opencv\project\3rdparty\ippicv\ippicv_win\include;D:\self\opencv\project\3rdparty\ippicv\ippiw_win\include;D:\self\opencv\project;D:\self\opencv\modules\dnn\src\ocl4dnn\include;D:\self\opencv\3rdparty\include\opencl\1.2;D:\self\opencv\modules\ts\include;D:\self\opencv\modules\imgcodecs\include;D:\self\opencv\modules\videoio\include;D:\self\opencv\modules\core\include;D:\self\opencv\modules\imgproc\include;D:\self\opencv\modules\flann\include;D:\self\opencv\modules\ml\include;D:\self\opencv\modules\objdetect\include;D:\self\opencv\modules\photo\include;D:\self\opencv\modules\video\include;D:\self\opencv\modules\dnn\include;D:\self\opencv\modules\shape\include;D:\self\opencv\modules\highgui\include;D:\self\opencv\modules\superres\include;D:\self\opencv\modules\features2d\include;D:\self\opencv\modules\calib3d\include;D:\self\opencv\modules\stitching\include;D:\self\opencv\modules\videostab\include;D:\self\opencv\modules\world\include;D:\self\opencv\modules\imgcodecs\test;D:\self\opencv\3rdparty\openexr\Half;D:\self\opencv\3rdparty\openexr\Iex;D:\self\opencv\3rdparty\openexr\IlmThread;D:\self\opencv\3rdparty\openexr\Imath;D:\self\opencv\3rdparty\openexr\IlmImf;D:\self\opencv\3rdparty\include;D:\self\opencv\3rdparty\include\ffmpeg_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\self\opencv\3rdparty\libjasper;D:\self\opencv\project\3rdparty\libtiff;D:\self\opencv\3rdparty\libtiff;D:\self\opencv\3rdparty\libpng;D:\self\opencv\3rdparty\libwebp\src;D:\self\opencv\3rdparty\libjpeg;D:\self\opencv\project\3rdparty\zlib;D:\self\opencv\3rdparty\zlib;D:\self\opencv\project\3rdparty\ippicv\ippicv_win\include;D:\self\opencv\project\3rdparty\ippicv\ippiw_win\include;D:\self\opencv\project;D:\self\opencv\modules\dnn\src\ocl4dnn\include;D:\self\opencv\3rdparty\include\opencl\1.2;D:\self\opencv\modules\ts\include;D:\self\opencv\modules\imgcodecs\include;D:\self\opencv\modules\videoio\include;D:\self\opencv\modules\core\include;D:\self\opencv\modules\imgproc\include;D:\self\opencv\modules\flann\include;D:\self\opencv\modules\ml\include;D:\self\opencv\modules\objdetect\include;D:\self\opencv\modules\photo\include;D:\self\opencv\modules\video\include;D:\self\opencv\modules\dnn\include;D:\self\opencv\modules\shape\include;D:\self\opencv\modules\highgui\include;D:\self\opencv\modules\superres\include;D:\self\opencv\modules\features2d\include;D:\self\opencv\modules\calib3d\include;D:\self\opencv\modules\stitching\include;D:\self\opencv\modules\videostab\include;D:\self\opencv\modules\world\include;D:\self\opencv\modules\imgcodecs\test;D:\self\opencv\3rdparty\openexr\Half;D:\self\opencv\3rdparty\openexr\Iex;D:\self\opencv\3rdparty\openexr\IlmThread;D:\self\opencv\3rdparty\openexr\Imath;D:\self\opencv\3rdparty\openexr\IlmImf;D:\self\opencv\3rdparty\include;D:\self\opencv\3rdparty\include\ffmpeg_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_ts340.lib;..\..\lib\Release\opencv_world340.lib;..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\lib\intel64\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/self/opencv/project/bin/Release/opencv_test_imgcodecs.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/self/opencv/project/bin/Release/opencv_test_imgcodecs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_grfmt.cpp" />
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_jpeg.cpp" />
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_main.cpp" />
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_png.cpp" />
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_read_write.cpp" />
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_tiff.cpp" />
+    <ClCompile Include="D:\self\opencv\modules\imgcodecs\test\test_webp.cpp" />
+    <ClInclude Include="D:\self\opencv\modules\imgcodecs\test\test_precomp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\self\opencv\project\ZERO_CHECK.vcxproj">
+      <Project>{493E77B7-2B59-3125-813D-F1DEAF72CD6C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\self\opencv\project\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{EF08780B-0C25-3F0C-80AA-AD6E0B71F8EA}</Project>
+      <Name>ippiw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\self\opencv\project\modules\ts\opencv_ts.vcxproj">
+      <Project>{3CD2F212-3ED6-3BC1-B900-0E9EFBA1871B}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\self\opencv\project\modules\world\opencv_world.vcxproj">
+      <Project>{E2DCC10A-0E59-3E17-8195-1B977177FC9B}</Project>
+      <Name>opencv_world</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
