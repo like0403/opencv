@@ -54,17 +54,19 @@ namespace videostab
 //! @addtogroup videostab_motion
 //! @{
 
-/** @brief Describes motion model between two point clouds.
+/*
+ * @brief Describes motion model between two point clouds.
+ * @描述两个 point clouds 之间的运动模型
  */
 enum MotionModel
 {
-    MM_TRANSLATION = 0,
-    MM_TRANSLATION_AND_SCALE = 1,
-    MM_ROTATION = 2,
-    MM_RIGID = 3,
-    MM_SIMILARITY = 4,
-    MM_AFFINE = 5,
-    MM_HOMOGRAPHY = 6,
+    MM_TRANSLATION = 0,					// 转化
+    MM_TRANSLATION_AND_SCALE = 1,		// 转换和缩放
+    MM_ROTATION = 2,					// 旋转变换
+    MM_RIGID = 3,						// 刚性变换
+    MM_SIMILARITY = 4,					// 相似变换
+    MM_AFFINE = 5,						// 仿射变换
+    MM_HOMOGRAPHY = 6,					// 单应性变换
     MM_UNKNOWN = 7
 };
 
