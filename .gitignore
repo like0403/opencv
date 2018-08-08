@@ -22,4 +22,4 @@ bin/
 *.log
 *.tlog
 build
-project
+/project
