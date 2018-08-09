@@ -1529,7 +1529,8 @@ void cv::boxFilter( InputArray _src, OutputArray _dst, int ddepth,
                 Size ksize, Point anchor,
                 bool normalize, int borderType )
 {
-    CV_INSTRUMENT_REGION()
+	// 初始化及边界类型等的判断
+    CV_INSTRUMENT_REGION() 
 
     CV_OCL_RUN(_dst.isUMat() &&
                (borderType == BORDER_REPLICATE || borderType == BORDER_CONSTANT ||
@@ -1544,6 +1545,8 @@ void cv::boxFilter( InputArray _src, OutputArray _dst, int ddepth,
         ddepth = sdepth;
     _dst.create( src.size(), CV_MAKETYPE(ddepth, cn) );
     Mat dst = _dst.getMat();
+
+	// 处理 borderType不为 BORDER_CONSTANT 且normalize为真的情况
     if( borderType != BORDER_CONSTANT && normalize && (borderType & BORDER_ISOLATED) != 0 )
     {
         if( src.rows == 1 )
@@ -1568,6 +1571,7 @@ void cv::boxFilter( InputArray _src, OutputArray _dst, int ddepth,
 
     borderType = (borderType&~BORDER_ISOLATED);
 
+	// 调用FilterEngine滤波引擎，正式开始滤波操作
     Ptr<FilterEngine> f = createBoxFilter( src.type(), dst.type(),
                         ksize, anchor, normalize, borderType );
 
@@ -2082,6 +2086,7 @@ void cv::GaussianBlur( InputArray _src, OutputArray _dst, Size ksize,
     Size size = _src.size();
     _dst.create( size, type );
 
+	// 处理边界选项不为BORDER_CONSTANT时的情况
     if( borderType != BORDER_CONSTANT && (borderType & BORDER_ISOLATED) != 0 )
     {
         if( size.height == 1 )
@@ -2090,6 +2095,7 @@ void cv::GaussianBlur( InputArray _src, OutputArray _dst, Size ksize,
             ksize.width = 1;
     }
 
+	// 若ksize长宽都为1，将源图拷贝给目标图
     if( ksize.width == 1 && ksize.height == 1 )
     {
         _src.copyTo(_dst);

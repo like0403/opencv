@@ -207,6 +207,9 @@ public:
  }
  \endcode
 */
+
+/* OpenCVÍ¼ÏñÂË²¨ºËĞÄÒıÇæ
+*/
 class FilterEngine
 {
 public:
