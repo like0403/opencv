@@ -53,6 +53,7 @@
     Z. Zhang. "A flexible new technique for camera calibration".
     IEEE Transactions on Pattern Analysis and Machine Intelligence, 22(11):1330-1334, 2000.
     The 1st initial port was done by Valery Mosyagin.
+	完整的多用途标定程序
 */
 
 using namespace cv;

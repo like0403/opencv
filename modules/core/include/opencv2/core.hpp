@@ -42,6 +42,9 @@
 //
 //M*/
 
+
+// New C++ data structures and arithmetic routines
+
 #ifndef OPENCV_CORE_HPP
 #define OPENCV_CORE_HPP
 

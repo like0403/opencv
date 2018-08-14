@@ -40,6 +40,8 @@
 //
 //M*/
 
+// Approximate nearest neighbor matching functions
+
 #ifndef OPENCV_MINIFLANN_HPP
 #define OPENCV_MINIFLANN_HPP
 

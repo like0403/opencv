@@ -40,6 +40,9 @@
 //
 //M*/
 
+
+// Two-dimensional feature tracking support
+
 #ifndef OPENCV_FEATURES_2D_HPP
 #define OPENCV_FEATURES_2D_HPP
 

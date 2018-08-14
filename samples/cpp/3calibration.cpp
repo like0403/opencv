@@ -1,5 +1,6 @@
 /*
  * 3calibration.cpp -- Calibrate 3 cameras in a horizontal line together.
+ * 同时标定三台水平放置的相机
  */
 
 #include "opencv2/calib3d.hpp"

@@ -41,6 +41,8 @@
 //
 //M*/
 
+// Cascade face detector; latent SVM; HoG; planar patch detector
+
 #ifndef OPENCV_OBJDETECT_HPP
 #define OPENCV_OBJDETECT_HPP
 

@@ -40,6 +40,8 @@
 //
 //M*/
 
+// Old C image processing functions
+
 #ifndef OPENCV_IMGPROC_IMGPROC_C_H
 #define OPENCV_IMGPROC_IMGPROC_C_H
 

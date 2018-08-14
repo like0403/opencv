@@ -40,6 +40,8 @@
 //
 //M*/
 
+// New C++ image processing functions
+
 #ifndef OPENCV_IMGPROC_HPP
 #define OPENCV_IMGPROC_HPP
 

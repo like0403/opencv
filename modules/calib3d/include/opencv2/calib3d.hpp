@@ -41,6 +41,8 @@
 //
 //M*/
 
+// Calibration and stereo
+
 #ifndef OPENCV_CALIB3D_HPP
 #define OPENCV_CALIB3D_HPP
 

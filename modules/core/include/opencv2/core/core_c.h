@@ -42,6 +42,8 @@
 //M*/
 
 
+// Old C data structures and arithmetic routines
+
 #ifndef OPENCV_CORE_C_H
 #define OPENCV_CORE_C_H
 

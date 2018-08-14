@@ -41,6 +41,8 @@
 //
 //M*/
 
+// Algorithms specific to handling and restoring photographs
+
 #ifdef __OPENCV_BUILD
 #error this is a compatibility header which should not be used inside the OpenCV library
 #endif

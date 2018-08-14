@@ -41,6 +41,8 @@
 //
 //M*/
 
+// Video tracking and background segmentation routines
+
 #ifndef OPENCV_VIDEO_HPP
 #define OPENCV_VIDEO_HPP
 

@@ -41,6 +41,8 @@
 //
 //M*/
 
+// Machine learning: clustering, pattern recognition
+
 #ifndef OPENCV_ML_HPP
 #define OPENCV_ML_HPP
 

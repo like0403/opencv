@@ -2088,7 +2088,7 @@ Scalar_<_Tp>::Scalar_(const Vec<_Tp2, cn>& v)
 {
     int i;
     for( i = 0; i < (cn < 4 ? cn : 4); i++ )
-        this->val[i] = cv::saturate_cast<_Tp>(v.val[i]);
+        this->val[i] = cv::saturate_cast<_Tp>(v.val[i]); // ·ÀÖ¹Òç³ö
     for( ; i < 4; i++ )
         this->val[i] = 0;
 }

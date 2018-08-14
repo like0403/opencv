@@ -40,6 +40,8 @@
 //
 //M*/
 
+// New C++ image display, sliders, buttons, mouse, I/O
+
 #ifndef OPENCV_HIGHGUI_HPP
 #define OPENCV_HIGHGUI_HPP
 
